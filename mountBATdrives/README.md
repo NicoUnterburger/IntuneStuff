@@ -15,7 +15,7 @@ exit
 ### mountDrive.bat
 Script to move bat-File to Global AllUserStartUp
 ```
-Copy-Item -Path "$psscriptroot\mountDrive.bat" -Destination "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\mountTaststar.bat"
+Copy-Item -Path "$psscriptroot\mountDrive.bat" -Destination "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\mountDrive.bat"
 
 Return 0
 ```
