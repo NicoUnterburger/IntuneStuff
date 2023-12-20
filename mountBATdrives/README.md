@@ -12,7 +12,7 @@ net use T: \\192.168.1.1\share /user:username password
 exit
 ```
 
-### mountDrive.bat
+### copyToStartup.ps1
 Script to move bat-File to Global AllUserStartUp
 ```
 Copy-Item -Path "$psscriptroot\mountDrive.bat" -Destination "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\mountDrive.bat"
